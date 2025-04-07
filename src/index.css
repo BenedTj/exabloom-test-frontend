@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+ 
+#app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-div {
+  margin: 5px;
+}
+
+.start-action-node {
+  width: 300px;
+  height: 70px;
+  border: 1.5px solid #eee;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.start-action-node-text {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.start-node-title {
+  color: #006000;
+  font-weight: bold;
+}
+
+.action-node-title {
+  color: 3399FF;
+  font-weight: bold;
+}
+
+.addition-edge-button {
+  background: none;
+  border: none;
+}
+
+.end-node {
+  width: 300px;
+  height: 70px;
+  border: 1px solid #eee;
+  border-radius: 35px;
+  background: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
